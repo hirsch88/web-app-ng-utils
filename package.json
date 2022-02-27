@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "link": "cd dist/baloise/web-app-ng-utils && npm link"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +24,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~13.1.4",
     "@angular/cli": "~13.1.3",
     "@angular/compiler-cli": "~13.1.0",
     "@types/jasmine": "~3.10.0",
@@ -33,6 +35,8 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "lerna": "^3.22.1",
+    "ng-packagr": "^13.0.0",
     "typescript": "~4.5.2"
   }
 }

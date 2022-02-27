@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "projects/baloise/*"
+  ],
+  "version": "0.0.0"
+}
